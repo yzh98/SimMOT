@@ -26,8 +26,6 @@ class SimMOT(nn.Module):
         exclude_first_frame: bool = True,
     ):
         """
-        SimMOT: Simple Multi-Object Tracking with temporal sampling optimization.
-        
         Args:
             detr: DETR-based detection model
             detr_framework: Framework name (e.g., 'DINO', 'DeformableDETR')
