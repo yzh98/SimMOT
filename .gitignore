@@ -1,0 +1,14 @@
+# Root gitignore file
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Build artifacts (Deformable Attention CUDA ops)
+models/ops/build/
+models/ops/dist/
